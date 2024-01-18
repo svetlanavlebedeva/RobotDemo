@@ -1,14 +1,12 @@
 *** Settings ***
 Library    RequestsLibrary
-Test Setup       	Create Session    my_session    ${HOST}    verify=False
+Suite Setup       	Create Session    my_session    ${HOST}    verify=False
 
 
 *** Variables ***
 ${HOST}    https://jsonplaceholder.typicode.com
 
 
-*** Settings ***
-Library    RequestsLibrary
 
 *** Test Cases ***
 Send GET Request to Google
