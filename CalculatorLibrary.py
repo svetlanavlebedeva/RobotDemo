@@ -1,3 +1,5 @@
+from robot.api.deco import keyword
+
 from calculator import Calculator, CalculationError
 
 

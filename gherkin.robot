@@ -16,7 +16,7 @@ Library           CalculatorLibrary.py
 Addition
     Given calculator has been cleared
     When user types "1 + 1"
-    and user pushes equals
+    And user pushes equals
     Then result is "2"
 
 *** Keywords ***

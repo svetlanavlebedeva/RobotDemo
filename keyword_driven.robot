@@ -14,6 +14,7 @@ Library           CalculatorLibrary.py
 
 *** Test Cases ***
 Push button
+    [Tags]    SMOKE    REGRESS    CALCULATOR
     Push button    1
     Result should be    1
 
@@ -23,6 +24,7 @@ Push multiple buttons
     Result should be    12
 
 Simple calculation
+    [Tags]    SMOKE    REGRESS
     Push button    1
     Push button    +
     Push button    2
@@ -30,6 +32,7 @@ Simple calculation
     Result should be    3
 
 Longer calculation
+    [Documentation]   Perform long calculation
     Push buttons    5 + 4 - 3 * 2 / 1 =
     Result should be    3
 
