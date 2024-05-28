@@ -1,4 +1,4 @@
-class Calculator(object):
+class Calculator:
     BUTTONS = '1234567890+-*/C='
 
     def __init__(self):
